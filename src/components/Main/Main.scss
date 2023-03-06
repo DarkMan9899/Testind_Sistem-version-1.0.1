@@ -1,0 +1,127 @@
+@import "../mixins.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+
+
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    width: 500px;
+
+    border: 1px solid #999999;
+    border-radius: 20px;
+  }
+
+  .input {
+    width: 85%;
+    height: 40px;
+    font-size: x-large;
+    font-family: monospace;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    background-color: #E8F0FE;
+
+    &:hover {
+      border: 1px solid #9C9683;
+      box-shadow: #9C9683 0px 0px 15px;
+    }
+
+
+  }
+
+  .btn {
+    height: 40px;
+    width: 25%;
+    font-size: x-large;
+    font-family: monospace;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 10px;
+
+    &:hover {
+      border: 1px solid #9C9683;
+      box-shadow: #9C9683 0px 0px 15px;
+    }
+  }
+
+  .forgot {
+    @include font(1.2em);
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    margin-top: 7px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .error {
+    font-size: x-large;
+    font-family: monospace;
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  .show {
+    display: flex
+  }
+
+
+  .container--send {
+    display: flex;
+    flex-direction: row;
+
+    .btn {
+      width: 80px;
+      margin-left: 10px;
+    }
+
+    .input {
+      width: 330px
+    }
+  }
+
+  .container--code_input {
+    .code_input {
+      @include answer_group();
+      width: 15px;
+      padding-right: 10px;
+
+
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+
+    display: flex;
+    flex-direction: row;
+
+
+    .btn {
+      margin-left: 10px;
+    }
+  }
+
+
+
+
+}

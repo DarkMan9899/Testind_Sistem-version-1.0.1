@@ -1,0 +1,209 @@
+@import "../mixins.scss";
+@import "../FontFace.scss";
+
+// $sub_menu_left: 500px;
+
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+
+#view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: calc(100vh - 40px);
+  width: calc(100vw - 40px);
+  display: flex;
+  background: border-box;
+  border: 1px solid #999999;
+  border-radius: 8px;
+
+  #menu {
+    width: 18%;
+    flex-direction: column;
+    height: calc(100% - 36px);
+    border: 2px solid #323232;
+    margin: 18px 16px auto;
+    align-items: center;
+    display: flex;
+    border: 1px solid #999999;
+    border-radius: 8px;
+
+    .name {
+      text-align: center;
+      width: 150px;
+      @include font(2.2em);
+    }
+
+    #control {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      width: 90%;
+
+      .btn {
+        @include btn();
+        border: none;
+        width: 100%;
+        border: 1px solid #999999;
+        border-radius: 8px;
+      }
+    }
+
+
+  }
+
+  #subView {
+    height: calc(100% - 36px);
+    margin-top: 18px;
+    margin-right: 18px;
+    width: 80%;
+
+    .menu2 {
+      border: 1px solid #999999;
+      border-radius: 8px;
+      margin: 2px auto;
+      width: 100%;
+      height: 46px;
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-around;
+
+      .menu2_input {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+
+        .btn {
+          @include btn();
+          @include font(1.2em);
+          width: 160px;
+          height: 30px;
+          border: 1px solid #999999;
+          border-radius: 8px;
+          margin-left: 10px;
+          margin-top: 8px;
+        }
+      }
+
+      .input {
+        height: 30px;
+        width: 230px;
+        border: 1px solid #999999;
+        border-radius: 8px;
+        margin-top: 7px;
+        padding-left: 10px;
+        outline: none;
+        @include font(1.2em);
+      }
+
+
+    }
+
+    .ResultViewDatatable,
+    .ListViewDatatable {
+      // border: 1px solid #999999;
+      // border-radius: 8px;
+      // width: 100%;
+      // margin: 10px auto;
+      // height: calc(100% - 60px);
+
+      .rdt_Table {
+        background: content-box;
+        border: 1px solid #999999;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px auto;
+        height: calc(100vh - 136px);
+        // min-height: calc(100vh - 136px);
+        overflow-y: auto;
+
+        .rdt_TableHead {
+          .rdt_TableHeadRow {
+            background: content-box;
+          }
+        }
+
+        .rdt_TableBody {
+          overflow-y: auto;
+
+          .rdt_TableRow {
+            background: content-box;
+
+            &:hover {
+              background: #999999;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  #view {
+    #subView {
+      .menu2 {
+        flex-flow: column;
+        text-align: center;
+        height: 18vh;
+
+        input {
+
+          margin: 3px auto;
+        }
+      }
+
+      .ResultViewDatatable,
+      .ListViewDatatable {
+
+        .rdt_Table {
+          height: calc(100vh - 188px);
+        }
+
+      }
+    }
+  }
+
+
+}
+
+
+.startExamSwal {
+  border: 1px solid #999999;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+  .swal2-content {
+    #swal2-content {
+      .input {
+        height: 30px;
+        width: 350px;
+        border: 1px solid #999999;
+        border-radius: 8px;
+        margin-top: 10px;
+        padding-left: 10px;
+        outline: none;
+        @include font(1.2em);
+      }
+    }
+
+    .btn {
+      @include btn();
+      @include font(1.2em);
+      width: 160px;
+      height: 30px;
+      border: 1px solid #999999;
+      border-radius: 8px;
+      margin-left: 10px;
+      margin-top: 8px;
+    }
+  }
+}

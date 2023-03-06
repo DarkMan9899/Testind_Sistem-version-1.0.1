@@ -1,0 +1,210 @@
+// @media (min-width: 992px) and (max-width: 1199.98px) {
+//   #menu {
+//     .name {
+//       margin: 0 auto;
+//     }
+
+//     #control {
+//       margin: 0 auto;
+//     }
+//   }
+
+//   #view {
+
+//     .ResultViewDatatable,
+//     .ListViewDatatable {
+//       height: calc(100% - 180px);
+//     }
+
+//     .menu2{
+//       .input{
+//         width: 280px;
+//       }
+//     }
+
+//     .lc{
+//       .control{
+//         .input{
+//           width: 280px;
+//         }
+//       }
+
+//       // .input{
+//       //   width: 280px;
+//       // }
+//     }
+//   }
+
+
+//   .Lecturer {
+//     .Lecturer_SelectType {
+//       display: flex;
+//       flex-flow: column;
+//       height: 0px;
+//     }
+
+
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 991.98px) {
+
+//   #menu {
+//     .name {
+//       margin: 0 auto;
+//     }
+
+//     #control {
+//       margin: 0 auto;
+//     }
+//   }
+
+//   #view {
+
+//     .ResultViewDatatable,
+//     .ListViewDatatable {
+//       height: calc(100% - 185px);
+//     }
+
+//     .lc{
+//       .control{
+//         .input{
+//           width: 260px;
+//         }
+//       }
+
+//       .input{
+//         width: 260px;
+//       }
+//     }
+//   }
+
+//   .Lecturer {
+//     justify-content: center;
+//     flex-direction: column;
+//     margin: 1% auto;
+
+//     .Lecturer_SelectType {
+//       flex-flow: row;
+//       justify-content: center;
+//       height: 90px;
+//       margin: auto 0;
+
+//       .type_select {
+//         margin-left: 15px;
+//       }
+
+//       .Lecturer_SelectType--sub {
+//         flex-direction: row;
+//         flex-flow: row;
+//         margin-top: 15px;
+//         justify-content: center;
+//       }
+
+//       .form-check {
+//         padding-left: 0;
+//         padding-right: 0;
+//       }
+//     }
+//   }
+
+//   .Lecturer_SelectView {
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+
+// @media only screen and (max-width: 776px) {
+//   #menu {
+
+
+//     .name {
+//       margin: 0 auto;
+//     }
+
+//     #control {
+//       display: flex;
+//       flex-wrap: wrap;
+//       justify-content: center;
+//     }
+//   }
+
+//   #view {
+
+//     .ResultViewDatatable,
+//     .ListViewDatatable {
+//       height: calc(100% - 185px);
+//     }
+//   }
+
+//   .Lecturer {
+//     justify-content: center;
+//     flex-direction: column;
+//     margin: 1% auto;
+
+//     .Lecturer_SelectType {
+//       display: flex;
+//       flex-flow: row;
+//       justify-content: center;
+//       height: 90px;
+//       margin: auto 0;
+
+//       .type_select {
+//         margin-left: 15px;
+//       }
+
+//       .Lecturer_SelectType--sub {
+//         flex-direction: row;
+//         flex-flow: row;
+//         margin-top: 15px;
+//         justify-content: center;
+//       }
+
+//       .form-check {
+//         padding-left: 0;
+//         padding-right: 0;
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 767.98px) {
+//   // #view {
+//   //   height: 84vh;
+//   // }
+
+//   #menu {
+//     .name {
+//       margin: 0 auto;
+//     }
+
+//     #control {
+//       margin: 0 auto;
+//       padding: 0 !important;
+//     }
+//   }
+
+//   #view {
+
+//     .ResultViewDatatable,
+//     .ListViewDatatable {
+//       height: calc(100% - 185px);
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 730px) {
+//   #view {
+
+//     .ResultViewDatatable,
+//     .ListViewDatatable {
+//       height: calc(100% - 185px);
+//     }
+//   }
+
+//   #menu {
+//     #control {
+//       height: 75px;
+//     }
+//   }
+// }

@@ -43,7 +43,7 @@
 <g id="surface1">
 <rect x="0" y="0" width="600" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <rect x="0" y="0" width="600" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
-<rect x="0" y="0" width="600" height="449.999984" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<rect x="0" y="0" width="600" height="449.999984" style="fill:rgb(92.939758%,90.589905%,96.469116%);fill-opacity:1;stroke:none;"/>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 299.925781 450 C 175.964844 450 75 349.035156 75 224.925781 C 75 100.8125 175.964844 0 299.925781 0 C 423.882812 0 524.847656 100.964844 524.847656 224.925781 C 525 349.035156 424.035156 450 299.925781 450 Z M 299.925781 3.808594 C 177.945312 3.808594 78.808594 102.945312 78.808594 224.925781 C 78.808594 346.902344 178.097656 446.191406 299.925781 446.191406 C 421.75 446.191406 521.191406 346.902344 521.191406 224.925781 C 521.191406 102.945312 421.902344 3.808594 299.925781 3.808594 Z M 299.925781 3.808594 "/>
 <use xlink:href="#surface5" transform="matrix(1,0,0,1,122,55)" mask="url(#mask0)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:0.4;">
